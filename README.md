@@ -1,5 +1,6 @@
 # Modern Calculator
 
+![modern-calculator Preview](Asset/calculator.png)
 A clean and professional calculator with a dark iOS-inspired interface.
 
 ## Features
@@ -55,7 +56,8 @@ Pull requests are welcome!
 
 **Hafiz Muhammad Ahmed**
 
-- GitHub: [@hmahmd](https://github.com/hmahmd)
+- [GitHub Profile](https://github.com/hmahmd/)
+- [LinkedIn Profile](https://www.linkedin.com/in/hmahmd/)
 
 ---
 
