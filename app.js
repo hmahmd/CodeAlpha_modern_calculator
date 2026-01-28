@@ -4,10 +4,12 @@ const buttons = document.querySelectorAll("button");
 buttons.forEach(function (btn) {
   btn.addEventListener("click", function () {
     let value = btn.textContent.trim();
+
     if (value === "AC") {
       inputField.value = "0";
       return;
     }
+
     if (value === "=") {
       try {
         let expression = inputField.value;
@@ -20,6 +22,7 @@ buttons.forEach(function (btn) {
       }
       return;
     }
+
     if (value === "DEL") {
       if (inputField.value.length === 1) {
         inputField.value = "0";
@@ -29,13 +32,12 @@ buttons.forEach(function (btn) {
         return;
       }
     }
+
     if (value === "%") {
       inputField.value = parseFloat(inputField.value) / 100;
       return;
-    } else if (value === "%") {
-      inputField.value = inputField.value.replace("%", "0.01");
-      return;
     }
+
     if (inputField.value === "0") {
       inputField.value = value;
     } else {
