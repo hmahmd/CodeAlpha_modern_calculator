@@ -14,7 +14,7 @@ A clean and professional calculator with a dark iOS-inspired interface.
 
 ## Demo
 
-**[Live Demo](https://hmahmd.github.io/modern-calculator)**
+**[Live Demo](https://code-alpha-modern-calculator.vercel.app/)**
 
 ## Technologies
 
